@@ -142,27 +142,3 @@ Implementar **recursos de segurança** como HTTPs, criptografias e demais recurs
 #### Sleep Time no ESP8266
 
 No final do código esp8266.ino tem uma linha com a seguinte operação: ```sleep_time = abs(59000 - sleep_time);```, é recomendado, para evitar passar o limite de tráfego do MQTT em possível sincronização das estações,  variar o valor do ```59000``` para cada estação adicionada, para a estação 1 foi deixado em ```60000```, a estação 2 em ```59000```.
-
-## EQUIPE E CONTATO
-
-Esse projeto foi desenvolvido por Romildo C Marques¹, quando aluno de engenharia física (UNILA), sendo orientado pelo prof. Oswaldo Hideo Ando Junior² (GPEnSE) da Universidade Federal da Integração Latino-Americana (UNILA).
-
-Contato¹: romildodcm@gmail.com
-Contato²: oswaldo.junior@unila.edu.br
-
-## APOIO E FOMENTO
-
-Este projeto foi desenvolvido com apoio e fomento de:
-* Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPq;
-* Universidade Federal da Integração Latino-Americana (UNILA);
-* Grupo de Pesquisa em Energia e Sustentabilidade Energética - GPEnSE;
-* Programa Agenda Tríplice da UNILA pelo apoio e fomento à pesquisa.
-
-## AGRADECIMENTOS
-Aos amigos e familiares pelo apoio;
-Ao professor Oswaldo Hideo Ando Junior pela orientação;
-Ao professor Joylan Nunes Maciel por auxíliar com banco de dados;
-Ao Lucas Teske (@racerxdl) que apresentou e recomendou as tecnologias InfluxDB e Grafana.
-
-![](./img/apoio.png)
-
