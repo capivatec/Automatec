@@ -1,12 +1,10 @@
-from flask import Flask, request, jsonify
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/api/register', methods=['POST'])
-def register():
-    data = request.get_json()
-    # Lógica para salvar o usuário no banco de dados
-    return jsonify({"message": "User registered successfully!"})
+@app.route('/')
+def home():
+    return "Hello, Flask!"
 
 if __name__ == '__main__':
     app.run()
