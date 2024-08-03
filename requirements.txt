@@ -1,6 +1,2 @@
-flask
-flask_sqlalchemy
-openpyxl
-flask==2.2.2
-gunicorn
-
+Flask==2.0.2
+openpyxl==3.0.7
